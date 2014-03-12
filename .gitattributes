@@ -1,22 +1,61 @@
-# Auto detect text files and perform LF normalization
+# Set default behaviour, in case users don't have core.autocrlf set.
 * text=auto
 
-# Custom for Visual Studio
-*.cs     diff=csharp
-*.sln    merge=union
-*.csproj merge=union
-*.vbproj merge=union
-*.fsproj merge=union
-*.dbproj merge=union
+# Explicitly declare text files we want to always be normalized and converted 
+# to native line endings on checkout.
+*.c text
+*.h text
+*.js text
+*.jsm text
+*.json text
+*.xml text
+*.svg text
+*.xul text
+*.xbl text
+*.rdf text
+*.css text
+*.manifest text
+*.md text
+*.xpm text
+*.pem text
+*.crt text
+*.vtt text
+*.dtd text
+*.properties text
+*.png binary
+*.apng binary
+*.jpg binary
+*.gif binary
+*.ppm binary
+*.bmp binary
+*.p7c binary
+*.der binary
+*.cer binary
+*.ogm binary
+*.ogv binary
+*.ogg binary
+*.mp4 binary
+*.webm binary
+*.wav binary
+*.eot binary
+*.ttf binary
+*.otf binary
+*.cff binary
+*.afm binary
+*.lwfn binary
+*.ffil binary
+*.fon binary
+*.pfm binary
+*.pfb binary
+*.woff binary
+*.std binary
+*.pro binary
+*.xpi binary
+*.zip binary
+*.dll binary
+*.so binary
+*.dylib binary
 
-# Standard to msysgit
-*.doc	 diff=astextplain
-*.DOC	 diff=astextplain
-*.docx diff=astextplain
-*.DOCX diff=astextplain
-*.dot  diff=astextplain
-*.DOT  diff=astextplain
-*.pdf  diff=astextplain
-*.PDF	 diff=astextplain
-*.rtf	 diff=astextplain
-*.RTF	 diff=astextplain
+# Declare files that will always have CRLF line endings on checkout.
+#*.ext text eol=crlf
+
