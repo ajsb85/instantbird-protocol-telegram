@@ -1,0 +1,7 @@
+component {66bacf80-a955-11e3-a5e2-0800200c9a66} components/telegram.js
+contract @mozilla.org/chat/telegram;1 {66bacf80-a955-11e3-a5e2-0800200c9a66}
+category im-protocol-plugin prpl-telegram @mozilla.org/chat/telegram;1
+
+skin prpl-telegram     classic/1.0 chrome/skin/
+
+locale prpl-telegram en-US chrome/locale/en-US/

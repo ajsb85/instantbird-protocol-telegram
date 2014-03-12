@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+	<Description about="urn:mozilla:install-manifest">
+		<em:id>prpl-telegram@alexandersalas.name</em:id>
+		<em:unpack>true</em:unpack>
+		<em:name>Telegram Protocol</em:name>
+		<em:version>0.1</em:version>
+		<em:description>Assists to setup a chat account for Telegram.</em:description>
+		<em:creator>Alexander Salas</em:creator>
+		<em:translator>Fatma Youssef</em:translator>
+		<em:homepageURL>http://alexandersalas.name/</em:homepageURL>
+		<em:iconURL>chrome://prpl-telegram/skin/icon48.png</em:iconURL>
+		<em:icon64URL>chrome://prpl-telegram/skin/icon64.png</em:icon64URL>
+		<em:targetApplication>
+			<Description>
+				<em:id>{33cb9019-c295-46dd-be21-8c4936574bee}</em:id>
+				<em:minVersion>0.2a1</em:minVersion>
+				<em:maxVersion>1.6a1pre</em:maxVersion>
+			</Description>
+		</em:targetApplication>
+	</Description>
+</RDF>
