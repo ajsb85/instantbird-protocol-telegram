@@ -1,7 +1,3 @@
-/* This Source Code Form is subject to the terms of the Mozilla Public
- * License, v. 2.0. If a copy of the MPL was not distributed with this
- * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
-
 Components.utils.import("resource:///modules/imServices.jsm");
 Components.utils.import("resource:///modules/imXPCOMUtils.jsm");
 Components.utils.import("resource:///modules/jsProtoHelper.jsm");
@@ -85,7 +81,7 @@ jsTest2Protocol.prototype = {
   get name() "Telegram",
   get iconBaseURI() "chrome://prpl-telegram/skin/",
   get usernameEmptyText() _("telegram.phone"),
-  get baseId() "prpl-telegram"
+  get baseId() "prpl-telegram",
   options: {
     "text": {label: "Text option",    default: "foo"},
     "bool": {label: "Boolean option", default: true},
